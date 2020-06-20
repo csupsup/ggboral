@@ -162,8 +162,8 @@ gg_coefsplot_data <- function(model) {
 #'
 gg_coefsplot <- function(model, X.labels = NULL,
                          linesize = 1.5, pointsize = 3,
-                         palette = "Greys",
-                         single.colour = "black") {
+                         palette = "Greens",
+                         single.colour = "green") {
 
   dat <- gg_coefsplot_data(model)
 
